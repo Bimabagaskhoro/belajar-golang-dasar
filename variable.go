@@ -51,4 +51,11 @@ func main() {
 
 	fmt.Println(firstName, lastName, declaration)
 
+	var (
+		stringss1    = `"`
+		stringss2    = `"`
+		declarations = `asdasdasdad`
+	)
+
+	fmt.Println(stringss1 + declarations + stringss2)
 }
